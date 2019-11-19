@@ -1,0 +1,64 @@
+digraph {
+	node[shape = "cube", color = "#800000", fontsize = 15, style = "filled", fillcolor = "#88CEFA"];
+	edge[color = "#190970", fontsize = 11];
+
+		"Computer Game"[shape = "ellipse", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Computer Game"->"Space Fantasy"[label = "YES"];
+
+		"Space Fantasy"[shape = "ellipse", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Space Fantasy"->"Possibility of fucking aliens"[label = "YES"];
+
+		"Possibility of fucking aliens"[shape = "ellipse", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Possibility of fucking aliens"->"Mass Effect"[label = "YES"];
+
+		"Possibility of fucking aliens"[shape = "egg", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Possibility of fucking aliens"->"Strategy"[label = "NO"];
+
+		"Strategy"[shape = "ellipse", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Strategy"->"Empire at War"[label = "YES"];
+
+		"Strategy"[shape = "egg", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Strategy"->"MMORPG"[label = "NO"];
+
+		"MMORPG"[shape = "ellipse", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"MMORPG"->"COnnected with SW"[label = "YES"];
+
+		"COnnected with SW"[shape = "ellipse", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"COnnected with SW"->"SW KOTOR"[label = "YES"];
+
+		"COnnected with SW"[shape = "egg", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"COnnected with SW"->"Destiny"[label = "NO"];
+
+		"MMORPG"[shape = "egg", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"MMORPG"->"Helldivers"[label = "NO"];
+
+		"Space Fantasy"[shape = "egg", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Space Fantasy"->"Created by Capcom"[label = "NO"];
+
+		"Created by Capcom"[shape = "ellipse", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Created by Capcom"->"Resident Evil"[label = "YES"];
+
+		"Created by Capcom"[shape = "egg", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Created by Capcom"->"Gothics"[label = "NO"];
+
+		"Computer Game"[shape = "egg", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Computer Game"->"Film"[label = "NO"];
+
+		"Film"[shape = "ellipse", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Film"->"StarTrek"[label = "YES"];
+
+		"Film"[shape = "egg", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Film"->"TOLKIEN"[label = "NO"];
+
+		"TOLKIEN"[shape = "ellipse", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"TOLKIEN"->"Before the original trilogy"[label = "YES"];
+
+		"Before the original trilogy"[shape = "ellipse", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Before the original trilogy"->"Silmarilion"[label = "YES"];
+
+		"Before the original trilogy"[shape = "egg", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"Before the original trilogy"->"The LOTR"[label = "NO"];
+
+		"TOLKIEN"[shape = "egg", color="#900000", style="filled", fillcolor = "#D0FDFF"];
+		"TOLKIEN"->"CyberPunk"[label = "NO"];
+}
